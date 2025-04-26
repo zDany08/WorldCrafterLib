@@ -1,0 +1,28 @@
+plugins {
+    id "java"
+}
+
+group = "com.github.zDany08"
+version = "0.1.0"
+
+processResources {
+    expand projectVersion: project.version
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    maven {
+        url = "https://hub.spigotmc.org/nexus/content/repositories/snapshots/"
+        content {
+            includeGroup "org.bukkit"
+            includeGroup "org.spigotmc"
+        }
+    }
+    maven { url = "https://oss.sonatype.org/content/repositories/snapshots" }
+    maven { url = "https://oss.sonatype.org/content/repositories/central" }
+}
+
+dependencies {
+    compileOnly "org.spigotmc:spigot-api:1.13-R0.1-SNAPSHOT"
+}

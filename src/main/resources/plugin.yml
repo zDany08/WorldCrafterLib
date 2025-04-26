@@ -1,0 +1,6 @@
+name: WorldCrafterLib
+description: World creation library easy to use.
+version: ${projectVersion}
+api-version: 1.13
+author: zDany
+main: me.zdany.worldcrafter.WorldCrafter
