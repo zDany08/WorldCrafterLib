@@ -3,10 +3,12 @@ plugins {
 }
 
 group = "com.github.zDany08"
-version = "0.1.0"
+version = "0.2.0"
 
 processResources {
-    expand projectVersion: project.version
+    filesMatching("plugin.yml") {
+        expand version: project.version
+    }
 }
 
 repositories {

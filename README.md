@@ -50,8 +50,6 @@ All of these types have a boolean parameter called _generateStructures_ (that, a
 - **RandomSeed** to generate a random seed every time a configuration its used
 - **FixedSeed** to use the same seed every time
 
-> This is just a beta of WorldCrafterLib and I already planned to add more features to enhance customizability of world generation, so any suggestion or feedback about it will be highly appreciated.
-
 ### Maven Implementation
 
 ```xml
@@ -73,7 +71,7 @@ All of these types have a boolean parameter called _generateStructures_ (that, a
 ### Gradle Implementation
 ```groovy
 repositories {
-    maven { url "https://jitpack.io" }
+    maven { url = "https://jitpack.io" }
 }
 dependencies {
     compileOnly "com.github.zDany08:WorldCrafterLib:0.1.0"

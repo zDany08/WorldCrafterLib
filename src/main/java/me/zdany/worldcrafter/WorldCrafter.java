@@ -1,17 +1,23 @@
 package me.zdany.worldcrafter;
 
-import org.bukkit.ChatColor;
+import me.zdany.worldcrafter.lib.Logger;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class WorldCrafter extends JavaPlugin {
 
+    private final Logger logger = new Logger(this);
+
     @Override
     public void onEnable() {
-        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + getName() + " has been enabled!");
+        this.logger.info("Plugin Enabled!");
     }
 
     @Override
     public void onDisable() {
-        getServer().getConsoleSender().sendMessage(ChatColor.RED + getName() + " has been disabled!");
+        this.logger.info("Plugin Disabled!");
+    }
+
+    public Logger getPluginLogger() {
+        return this.logger;
     }
 }
