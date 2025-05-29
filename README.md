@@ -63,7 +63,7 @@ All of these types have a boolean parameter called _generateStructures_ (that, a
     <dependency>
         <groupId>com.github.zDany08</groupId>
         <artifactId>WorldCrafterLib</artifactId>
-        <version>0.1.0</version>
+        <version>0.2.0</version>
     </dependency>
 </dependencies>
 ```
@@ -74,6 +74,6 @@ repositories {
     maven { url = "https://jitpack.io" }
 }
 dependencies {
-    compileOnly "com.github.zDany08:WorldCrafterLib:0.1.0"
+    compileOnly "com.github.zDany08:WorldCrafterLib:0.2.0"
 }
 ```
