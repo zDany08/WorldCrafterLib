@@ -1,6 +1,4 @@
-package me.zdany.worldcrafter.lib;
-
-import me.zdany.worldcrafter.WorldCrafter;
+package me.zdany.worldcrafter;
 
 public final class Logger {
 

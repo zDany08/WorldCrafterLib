@@ -1,6 +1,5 @@
 package me.zdany.worldcrafter;
 
-import me.zdany.worldcrafter.lib.Logger;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class WorldCrafter extends JavaPlugin {
@@ -9,12 +8,12 @@ public final class WorldCrafter extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        this.logger.info("Plugin Enabled!");
+        this.logger.info("Plugin enabled!");
     }
 
     @Override
     public void onDisable() {
-        this.logger.info("Plugin Disabled!");
+        this.logger.info("Plugin disabled!");
     }
 
     public Logger getPluginLogger() {

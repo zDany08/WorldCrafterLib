@@ -10,7 +10,7 @@ public final class WorldCrafterLib {
      * Creates a world
      *
      * @param name Name of the world
-     * @param configuration Set of configuration options to customize the world
+     * @param configuration Configuration options to customize the world
      * @return The world just created
      */
     public static World craft(String name, WorldConfiguration configuration) {

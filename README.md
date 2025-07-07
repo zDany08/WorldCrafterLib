@@ -1,4 +1,4 @@
-## WorldCrafterLib
+# WorldCrafterLib
 WorldCrafterLib was born to make world creation easier. The library is based on reusable world configurations you can make as shown below:
 
 ```java
@@ -50,7 +50,7 @@ All of these types have a boolean parameter called _generateStructures_ (that, a
 - **RandomSeed** to generate a random seed every time a configuration its used
 - **FixedSeed** to use the same seed every time
 
-### Maven Implementation
+## Maven Implementation
 
 ```xml
 <repositories>
@@ -63,17 +63,17 @@ All of these types have a boolean parameter called _generateStructures_ (that, a
     <dependency>
         <groupId>com.github.zDany08</groupId>
         <artifactId>WorldCrafterLib</artifactId>
-        <version>0.2.0</version>
+        <version>0.2.1</version>
     </dependency>
 </dependencies>
 ```
 
-### Gradle Implementation
+## Gradle Implementation
 ```groovy
 repositories {
     maven { url = "https://jitpack.io" }
 }
 dependencies {
-    compileOnly "com.github.zDany08:WorldCrafterLib:0.2.0"
+    compileOnly "com.github.zDany08:WorldCrafterLib:0.2.1"
 }
 ```
